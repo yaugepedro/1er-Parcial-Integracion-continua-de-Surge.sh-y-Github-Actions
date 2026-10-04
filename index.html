@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Despliegue continuo con GitHub Actions y Surge</title>
-<meta name="description" content="Cada cambio enviado a GitHub se publica automáticamente en Surge.sh.">
+<meta name="description" content="Cada cambio enviado a GitHub se publica automaticamente en Surge.sh">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
@@ -104,7 +104,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
         <li><a href="#proceso">Proceso</a></li>
         <li><a href="#proyecto">Proyecto</a></li>
       </ul>
-      <span class="live"><i aria-hidden="true"></i>Sitio en línea</span>
+      <span class="live"><i aria-hidden="true"></i>Sitio en linea</span>
     </nav>
   </div>
 </header>
@@ -112,10 +112,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 <main id="inicio">
   <section class="hero">
     <div class="wrap">
-      <h1>Mi página con despliegue automático.</h1>
-<p class="lead">Publiqué esta página usando GitHub Actions y Surge.sh. Cuando hago push al repositorio, el sitio se actualiza solo y no tengo que subir ningún archivo a mano.</p>
+      <h1>Mi pagina con despliegue automatico</h1>
+      <p class="lead">Publique esta pagina usando GitHub Actions y Surge.sh y cuando hago push al repositorio el sitio se actualiza solo sin subir ningun archivo a mano</p>
       <div class="cta">
-        <a class="btn solid" href="#flujo">Ver cómo funciona</a>
+        <a class="btn solid" href="#flujo">Ver como funciona</a>
         <a class="btn line" href="https://github.com/yaugepedro/1er-Parcial-Integracion-continua-de-Surge.sh-y-Github-Actions" target="_blank" rel="noopener">Repositorio</a>
       </div>
     </div>
@@ -124,22 +124,22 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
   <section class="flow" id="flujo" aria-label="Flujo de despliegue">
     <div class="wrap">
       <ol class="pipe">
-        <li class="node"><h3>Mi computadora</h3><p>Edito <code>index.html</code> y guardo el cambio con un commit.</p><b>git push</b></li>
-        <li class="node"><h3>GitHub</h3><p>Recibe el código en la rama <code>main</code>.</p><b>Repositorio actualizado</b></li>
-        <li class="node"><h3>GitHub Actions</h3><p>Ejecuta el workflow usando el token guardado como secret.</p><b>Workflow completado</b></li>
-        <li class="node"><h3>Surge.sh</h3><p>Publica la nueva versión del sitio.</p><b>Sitio actualizado</b></li>
+        <li class="node"><h3>Mi computadora</h3><p>Edito <code>index.html</code> y guardo el cambio con un commit</p><b>git push</b></li>
+        <li class="node"><h3>GitHub</h3><p>Recibe el codigo en la rama <code>main</code></p><b>Repositorio actualizado</b></li>
+        <li class="node"><h3>GitHub Actions</h3><p>Ejecuta el workflow usando el token guardado como secret</p><b>Workflow completado</b></li>
+        <li class="node"><h3>Surge.sh</h3><p>Publica la nueva version del sitio</p><b>Sitio actualizado</b></li>
       </ol>
     </div>
   </section>
 
   <section class="sec" id="proceso">
     <div class="wrap">
-      <h2>Cómo está armado</h2>
-      <p class="sub">Tres piezas hacen posible que el despliegue ocurra sin intervención manual.</p>
+      <h2>Como esta armado</h2>
+      <p class="sub">Tres piezas hacen posible que el despliegue ocurra sin intervencion manual</p>
       <ol class="steps">
-        <li><h3>Repositorio</h3><p>Una carpeta con Git y el archivo <code>index.html</code>, conectada a un repositorio en GitHub.</p></li>
-        <li><h3>Workflow</h3><p>El archivo <code>.github/workflows/main.yml</code> indica que cada push a <code>main</code> debe desplegar el sitio.</p></li>
-        <li><h3>Secret</h3><p>El token de Surge vive como <code>SURGE_TOKEN</code> en la configuración de GitHub y nunca aparece en el código.</p></li>
+        <li><h3>Repositorio</h3><p>Una carpeta con Git y el archivo <code>index.html</code> conectada a un repositorio en GitHub</p></li>
+        <li><h3>Workflow</h3><p>El archivo <code>.github/workflows/main.yml</code> indica que cada push a <code>main</code> debe desplegar el sitio</p></li>
+        <li><h3>Secret</h3><p>El token de Surge vive como <code>SURGE_TOKEN</code> en la configuracion de GitHub y nunca aparece en el codigo</p></li>
       </ol>
     </div>
   </section>
@@ -147,10 +147,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
   <section class="sec alt" id="proyecto">
     <div class="wrap">
       <h2>Datos del proyecto</h2>
-      <p class="sub">Herramientas utilizadas en esta práctica.</p>
+      <p class="sub">Herramientas utilizadas en esta practica</p>
       <dl class="facts">
         <div><dt>Control de versiones</dt><dd>Git y GitHub</dd></div>
-        <div><dt>Automatización</dt><dd>GitHub Actions</dd></div>
+        <div><dt>Automatizacion</dt><dd>GitHub Actions</dd></div>
         <div><dt>Hosting</dt><dd>Surge.sh</dd></div>
         <div><dt>Rama de despliegue</dt><dd>main</dd></div>
       </dl>
@@ -160,7 +160,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 
 <footer>
   <div class="wrap">
-    <span><strong>Pedro Yauge</strong> | Primer parcial de Integración continua</span>
+    <span><strong>Pedro Yauge</strong> | Primer parcial de Electiva 2</span>
     <span>Publicado con GitHub Actions y Surge.sh</span>
   </div>
 </footer>
